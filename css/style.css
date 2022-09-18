@@ -1,0 +1,199 @@
+/*==============================================================*/
+/*подкючения шрифтов  Roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap');
+/*=========================================================*/
+/*подкючения шрифтов  Lato*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+/*==============================================================*/
+/*подкючения шрифтов  Playfair Display*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500;1,900&display=swap');
+
+/*==============================================================*/
+/*подкючения шрифтов larsseit*/
+
+
+@font-face {
+  font-family: "Larsseit";
+  src: url("../fonts/larsseit/Larsseit-Regular.woff2") format("woff2"),
+    url("../fonts/larsseit/Larsseit-Regular.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Larsseit";
+  src: url("../fonts/larsseit/Larsseit-Medium.woff2") format("woff2"),
+    url("../fonts/larsseit/Larsseit-Medium.woff") format("woff");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Larsseit";
+  src: url("../fonts/larsseit/Larsseit-Bold.woff2") format("woff2"),
+    url("../fonts/larsseit/Larsseit-Bold.woff") format("woff");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*==============================================================*/
+
+body {
+  font-family: 'Lato';
+  font-weight: 700;
+  width: 1100px;
+  margin: 0 auto;
+  color: black;
+}
+
+header {
+  background-color: rgb(0, 132, 255);
+}
+
+main {
+  background-color: gold;
+}
+
+footer {
+  background-color: rgb(0, 132, 255);
+}
+
+.header {
+  font-size: 20px;
+  text-shadow: 5px 5px 5px rgb(246, 255, 81);
+  text-align: center;
+}
+
+.header span {
+  font-size: 40px;
+  color: rgba(215, 205, 3, 0.94);
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.nav {
+  font-size: 15px;
+  text-decoration: underline;
+  line-height: 1.2;
+  padding-left: 60px;
+}
+
+/* ============================================================ */
+
+.title {
+  font-size: 25px;
+  text-align: center;
+  padding: 15px 25px;
+  color: rgba(6, 24, 37, 0.94);
+  text-shadow: 5px 5px 3px rgb(77, 114, 233);
+}
+
+h1 {
+  font-size: 60px;
+  color: rgba(6, 24, 37, 0.94);
+  text-align: center;
+  font-weight: 900;
+}
+
+.title-main {
+  padding: 0px 50px;
+
+}
+
+.title-main img {
+  width: 300px;
+  height: 150px;
+  box-shadow: 5px 5px 3px rgb(77, 114, 233);
+}
+
+.title-main__text {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: justify;
+  margin: 25px 50px;
+  line-height: 1.2;
+}
+
+.vata {
+  color: red;
+  text-decoration: line-through;
+}
+
+p span {
+  font-weight: 900;
+  font-size: 25px;
+  color: rgba(1, 76, 174, 0.94);
+  text-decoration: underline;
+}
+
+.main-list {
+  display: flex;
+  justify-content: space-around;
+  text-align: justify;
+
+}
+
+.list {
+  font-size: 25px;
+  color: rgba(6, 24, 37, 0.94);
+  text-shadow: 5px 5px 3px rgb(77, 114, 233);
+}
+
+.list-text {
+  font-size: 18px;
+  text-align: justify;
+  text-shadow: none;
+  line-height: 1.2;
+  text-decoration: underline;
+  margin-bottom: 25px;
+}
+
+.img {
+  font-size: 25px;
+  text-align: center;
+}
+
+.img h2 {
+  color: rgba(6, 24, 37, 0.94);
+  text-shadow: 5px 5px 3px rgb(77, 114, 233);
+  margin-bottom: 25px;
+}
+
+h2 span {
+  color: red;
+  text-decoration: line-through;
+  text-shadow: none;
+}
+
+/* ============================================================ */
+.footer {
+  text-align: center;
+  font-size: 25px;
+  color: rgba(215, 205, 3, 0.94);
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+
+}
+
+.footer-text {
+  color: black;
+  text-align: left;
+  padding-left: 60px;
+  font-size: 15px;
+  text-decoration: underline;
+  line-height: 1.2;
+  text-shadow: none;
+}
+
+.footer span {
+  text-decoration: none;
+  text-shadow: 5px 5px 5px rgb(250, 246, 11);
+}
+
+/* ============================================================ */
+/* ============================================================ */
+/* ============================================================ */
